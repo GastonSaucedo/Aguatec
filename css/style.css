@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "bebaskai";
+  src: url(../media/fonts/BebasKai.woff2);
+}
+nav.navbar {
+  background-color: rgb(128, 177, 166);
+  font-family: bebaskai;
+  font-size: 25px;
+}
+nav.navbar img {
+  width: 50px;
+}
+nav.navbar a {
+  color: whitesmoke;
+  margin: 0 10px;
+}
+nav.navbar .dropdown-menu {
+  background-color: rgb(87, 121, 113);
+}
+
+.descripcion_index {
+  font-family: bebaskai;
+  text-align: center;
+  background-color: rgb(187, 187, 187);
+  margin: 200px;
+}
+.descripcion_index h1 {
+  font-size: 10vw;
+}
+.descripcion_index p {
+  font-size: 2vw;
+}
+
+main.footer {
+  background-color: rgb(128, 177, 166);
+  font-family: bebaskai;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  align-content: center;
+  color: whitesmoke;
+}
+main.footer .col {
+  padding: 10px;
+  align-self: center;
+}
+main.footer li {
+  list-style: none;
+}
+main.footer a img {
+  width: 40px;
+  margin: 0 10px;
+}
+main.footer p {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 390px) {
+  .descripcion_index {
+    margin: 80px;
+  }
+  .descripcion_index h1 {
+    margin-top: 10px;
+    font-size: 15vw;
+    padding: 10px;
+  }
+  .descripcion_index p {
+    font-size: 6vw;
+    text-align: justify;
+    padding: 20px;
+  }
+  main.footer .col {
+    padding: 30px;
+    align-items: center;
+  }
+  main.footer a img {
+    width: 50px;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 768px) {
+  .descripcion_index {
+    margin: 80px;
+  }
+  .descripcion_index h1 {
+    font-size: 13vw;
+    padding: 10px;
+  }
+  .descripcion_index p {
+    font-size: 3vw;
+    text-align: justify;
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
