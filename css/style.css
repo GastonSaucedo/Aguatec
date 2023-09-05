@@ -45,7 +45,7 @@ nav.navbar .dropdown-menu {
 }
 
 main.footer {
-  background-color: rgb(128, 177, 166);
+  background-color: #80b1a6;
   font-family: bebaskai;
   font-size: 20px;
   text-align: center;
@@ -66,6 +66,12 @@ main.footer a img {
 }
 main.footer p {
   margin-top: 15px;
+}
+
+.separador {
+  background-color: #80b1a6;
+  width: 100%;
+  height: 50px;
 }
 
 @media screen and (max-width: 390px) {
